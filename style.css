@@ -409,3 +409,223 @@ body {
         margin: 10px 0;
     }
 }
+
+/* ⭐ Professional Product Cards */
+
+.product-card {
+    transition: 0.3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
+}
+
+.product-card img {
+    transition: 0.3s;
+}
+
+.product-card:hover img {
+    transform: scale(1.05);
+}
+
+.product-card button {
+    transition: 0.2s;
+}
+
+.product-card button:hover {
+    transform: scale(1.05);
+}
+/* ⭐ Professional Hero Section */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content button {
+    transition: 0.2s;
+}
+
+.hero-content button:hover {
+    transform: scale(1.05);
+}
+/* ⭐ Professional Navbar */
+
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.logo:hover {
+    color: #febd69;
+    transform: scale(1.05);
+}
+
+.navbar input {
+    border-radius: 4px 0 0 4px;
+}
+
+.navbar button {
+    border-radius: 0 4px 4px 0;
+    transition: 0.2s;
+}
+
+.navbar button:hover {
+    background-color: #f3a847;
+}
+/* ⭐ Professional Search Box */
+
+.navbar input {
+    transition: 0.2s;
+}
+
+.navbar input:focus {
+    box-shadow: 0 0 0 3px rgba(254, 189, 105, 0.5);
+}
+
+.navbar button {
+    font-weight: bold;
+}
+/* ⭐ Professional Category Menu */
+
+.category-menu {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.category-menu span {
+    padding: 8px 5px;
+    transition: 0.2s;
+}
+
+.category-menu span:hover {
+    color: #febd69;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+/* ⭐ Professional Footer */
+
+.footer {
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer-links a {
+    transition: 0.2s;
+}
+
+.footer-links a:hover {
+    color: #febd69;
+    text-decoration: underline;
+}
+
+.footer h3 {
+    transition: 0.2s;
+}
+
+.footer h3:hover {
+    color: #febd69;
+}
+/* 🏷️ Discount Badge */
+
+.product-card {
+    position: relative;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #cc0c39;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 2;
+}
+/* 🛒 Professional Cart */
+
+.cart-section {
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+#cart-items > div {
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+#cart-items button {
+    transition: 0.2s;
+}
+
+#cart-items button:hover {
+    transform: scale(1.05);
+}
+/* 🛒 Professional Cart Design */
+
+.cart-section {
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+#cart-items > div {
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+#cart-items button {
+    transition: 0.2s;
+}
+
+#cart-items button:hover {
+    transform: scale(1.05);
+}
+
+#cart-total {
+    background-color: #fff3cd;
+    padding: 12px;
+    border-radius: 6px;
+    display: inline-block;
+}
+/* 🔐 Professional Login */
+
+.login-box {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.login-box:hover {
+    transform: translateY(-3px);
+}
+
+.login-box input:focus {
+    outline: none;
+    border-color: #ff9900;
+    box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.2);
+}
+
+.login-box button {
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.login-box button:hover {
+    transform: scale(1.02);
+}
